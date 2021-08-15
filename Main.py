@@ -71,7 +71,6 @@ def coefficient(p, graph):
   medium_coefficient = 0.0
 
   for v in p:
-    # Iterate over vs of g
     neighbours = graph[v]                         # Gets v neighbour set
     neighbours_count = len(neighbours)            # Counts the number of neighbours
     edges_count = 0

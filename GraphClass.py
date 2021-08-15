@@ -2,7 +2,7 @@ from collections import defaultdict
 
 class Graph(object):
   def __init__(self, edges):
-    # Initilize base structure
+    # Initilizes base structure
     self.adj = defaultdict(set)
     self.fill_edges(edges)
 
