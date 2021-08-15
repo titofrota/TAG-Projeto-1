@@ -44,4 +44,4 @@ class Graph(object):
     return self.adj[v]
 
 
-# 
+# This class was based on the following implementation: https://algoritmosempython.com.br/cursos/algoritmos-python/algoritmos-grafos/representacao-grafos/
